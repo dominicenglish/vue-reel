@@ -8,6 +8,10 @@
   </div>
 </template>
 <style lang="stylus">
+body
+  margin: 0
+  position: fixed
+  overflow: hidden
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
@@ -16,6 +20,9 @@
   color #2c3e50
 
 #nav
+  position: fixed
+  top: 0
+  left: 0
   padding 30px
   a
     font-weight bold
